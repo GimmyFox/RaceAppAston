@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		972125202B1E2E49008E0C1F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721251F2B1E2E49008E0C1F /* DataService.swift */; };
 		973353FA2B0BC24100F45F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973353F92B0BC24100F45F64 /* AppDelegate.swift */; };
 		973353FC2B0BC24100F45F64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973353FB2B0BC24100F45F64 /* SceneDelegate.swift */; };
-		973353FE2B0BC24100F45F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973353FD2B0BC24100F45F64 /* ViewController.swift */; };
-		973354012B0BC24100F45F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973353FF2B0BC24100F45F64 /* Main.storyboard */; };
+		973353FE2B0BC24100F45F64 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973353FD2B0BC24100F45F64 /* MainScreenViewController.swift */; };
 		973354032B0BC24400F45F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973354022B0BC24400F45F64 /* Assets.xcassets */; };
 		973354062B0BC24400F45F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973354042B0BC24400F45F64 /* LaunchScreen.storyboard */; };
+		9733540E2B0BC26300F45F64 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733540D2B0BC26300F45F64 /* ModuleBuilder.swift */; };
+		973354102B0BC3B400F45F64 /* RaceScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733540F2B0BC3B400F45F64 /* RaceScreenViewController.swift */; };
+		973354122B0BC3E700F45F64 /* SettingsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973354112B0BC3E700F45F64 /* SettingsScreenViewController.swift */; };
+		973354142B0BC40800F45F64 /* RecordsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973354132B0BC40800F45F64 /* RecordsScreenViewController.swift */; };
+		9733541F2B0BC49300F45F64 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733541E2B0BC49300F45F64 /* MainScreenPresenter.swift */; };
+		973354242B0BC4D400F45F64 /* RaceScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973354232B0BC4D400F45F64 /* RaceScreenPresenter.swift */; };
+		973354262B0BC4F500F45F64 /* SettingsScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973354252B0BC4F500F45F64 /* SettingsScreenPresenter.swift */; };
+		973354282B0BC52600F45F64 /* RecordsScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973354272B0BC52600F45F64 /* RecordsScreenPresenter.swift */; };
+		973354462B0E51EC00F45F64 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973354452B0E51EC00F45F64 /* Settings.swift */; };
+		974B6DB32B15E10B00A4797E /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B6DB22B15E10B00A4797E /* PlayerModel.swift */; };
+		974B6DB72B15E5D900A4797E /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B6DB62B15E5D900A4797E /* RecordCell.swift */; };
+		974B6DB92B15E9EB00A4797E /* UIGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B6DB82B15E9EB00A4797E /* UIGrid.swift */; };
+		974B6DBC2B15EE7300A4797E /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974B6DBB2B15EE7300A4797E /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9721251F2B1E2E49008E0C1F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		973353F62B0BC24100F45F64 /* RaceAppAston.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceAppAston.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973353F92B0BC24100F45F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		973353FB2B0BC24100F45F64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		973353FD2B0BC24100F45F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		973354002B0BC24100F45F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		973353FD2B0BC24100F45F64 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		973354022B0BC24400F45F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		973354052B0BC24400F45F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		973354072B0BC24400F45F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9733540D2B0BC26300F45F64 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		9733540F2B0BC3B400F45F64 /* RaceScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceScreenViewController.swift; sourceTree = "<group>"; };
+		973354112B0BC3E700F45F64 /* SettingsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenViewController.swift; sourceTree = "<group>"; };
+		973354132B0BC40800F45F64 /* RecordsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsScreenViewController.swift; sourceTree = "<group>"; };
+		9733541E2B0BC49300F45F64 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
+		973354232B0BC4D400F45F64 /* RaceScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceScreenPresenter.swift; sourceTree = "<group>"; };
+		973354252B0BC4F500F45F64 /* SettingsScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenPresenter.swift; sourceTree = "<group>"; };
+		973354272B0BC52600F45F64 /* RecordsScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsScreenPresenter.swift; sourceTree = "<group>"; };
+		973354452B0E51EC00F45F64 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		974B6DB22B15E10B00A4797E /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		974B6DB62B15E5D900A4797E /* RecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
+		974B6DB82B15E9EB00A4797E /* UIGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGrid.swift; sourceTree = "<group>"; };
+		974B6DBB2B15EE7300A4797E /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9721251E2B1E2E2E008E0C1F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9721251F2B1E2E49008E0C1F /* DataService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		973353ED2B0BC24100F45F64 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +92,170 @@
 			children = (
 				973353F92B0BC24100F45F64 /* AppDelegate.swift */,
 				973353FB2B0BC24100F45F64 /* SceneDelegate.swift */,
-				973353FD2B0BC24100F45F64 /* ViewController.swift */,
-				973353FF2B0BC24100F45F64 /* Main.storyboard */,
+				9733540D2B0BC26300F45F64 /* ModuleBuilder.swift */,
+				973354152B0BC42600F45F64 /* MainModule */,
+				973354162B0BC42D00F45F64 /* RaceScreenModule */,
+				973354182B0BC44A00F45F64 /* RecordsScreenModule */,
+				973354172B0BC43600F45F64 /* SettingsScreenModule */,
+				974B6DAD2B15C98500A4797E /* Helpers */,
+				974B6DB12B15E0FD00A4797E /* Models */,
+				973354432B0E51D100F45F64 /* Services */,
 				973354022B0BC24400F45F64 /* Assets.xcassets */,
 				973354042B0BC24400F45F64 /* LaunchScreen.storyboard */,
 				973354072B0BC24400F45F64 /* Info.plist */,
 			);
 			path = RaceAppAston;
+			sourceTree = "<group>";
+		};
+		973354152B0BC42600F45F64 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				973354192B0BC45A00F45F64 /* View */,
+				9733541D2B0BC47E00F45F64 /* Presenter */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		973354162B0BC42D00F45F64 /* RaceScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				9733541A2B0BC45F00F45F64 /* View */,
+				973354202B0BC4B500F45F64 /* Presenter */,
+			);
+			path = RaceScreenModule;
+			sourceTree = "<group>";
+		};
+		973354172B0BC43600F45F64 /* SettingsScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				974B6DBA2B15EE5D00A4797E /* Model */,
+				9733541B2B0BC46700F45F64 /* View */,
+				973354212B0BC4BB00F45F64 /* Presenter */,
+			);
+			path = SettingsScreenModule;
+			sourceTree = "<group>";
+		};
+		973354182B0BC44A00F45F64 /* RecordsScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				9733541C2B0BC46D00F45F64 /* View */,
+				973354222B0BC4C100F45F64 /* Presenter */,
+			);
+			path = RecordsScreenModule;
+			sourceTree = "<group>";
+		};
+		973354192B0BC45A00F45F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				973353FD2B0BC24100F45F64 /* MainScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9733541A2B0BC45F00F45F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9733540F2B0BC3B400F45F64 /* RaceScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9733541B2B0BC46700F45F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				973354112B0BC3E700F45F64 /* SettingsScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9733541C2B0BC46D00F45F64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				973354132B0BC40800F45F64 /* RecordsScreenViewController.swift */,
+				974B6DB52B15E5CD00A4797E /* Helpers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9733541D2B0BC47E00F45F64 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9733541E2B0BC49300F45F64 /* MainScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		973354202B0BC4B500F45F64 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				973354232B0BC4D400F45F64 /* RaceScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		973354212B0BC4BB00F45F64 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				973354252B0BC4F500F45F64 /* SettingsScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		973354222B0BC4C100F45F64 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				973354272B0BC52600F45F64 /* RecordsScreenPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		973354432B0E51D100F45F64 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9721251E2B1E2E2E008E0C1F /* Data */,
+				973354442B0E51E000F45F64 /* Settings */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		973354442B0E51E000F45F64 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				973354452B0E51EC00F45F64 /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		974B6DAD2B15C98500A4797E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				974B6DB82B15E9EB00A4797E /* UIGrid.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		974B6DB12B15E0FD00A4797E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				974B6DB22B15E10B00A4797E /* PlayerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		974B6DB52B15E5CD00A4797E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				974B6DB62B15E5D900A4797E /* RecordCell.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		974B6DBA2B15EE5D00A4797E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				974B6DBB2B15EE7300A4797E /* SettingsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +318,6 @@
 			files = (
 				973354062B0BC24400F45F64 /* LaunchScreen.storyboard in Resources */,
 				973354032B0BC24400F45F64 /* Assets.xcassets in Resources */,
-				973354012B0BC24100F45F64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +328,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973353FE2B0BC24100F45F64 /* ViewController.swift in Sources */,
+				973354142B0BC40800F45F64 /* RecordsScreenViewController.swift in Sources */,
+				974B6DBC2B15EE7300A4797E /* SettingsModel.swift in Sources */,
+				973354282B0BC52600F45F64 /* RecordsScreenPresenter.swift in Sources */,
+				973354262B0BC4F500F45F64 /* SettingsScreenPresenter.swift in Sources */,
+				974B6DB72B15E5D900A4797E /* RecordCell.swift in Sources */,
+				9733541F2B0BC49300F45F64 /* MainScreenPresenter.swift in Sources */,
+				973353FE2B0BC24100F45F64 /* MainScreenViewController.swift in Sources */,
+				974B6DB32B15E10B00A4797E /* PlayerModel.swift in Sources */,
 				973353FA2B0BC24100F45F64 /* AppDelegate.swift in Sources */,
+				973354462B0E51EC00F45F64 /* Settings.swift in Sources */,
 				973353FC2B0BC24100F45F64 /* SceneDelegate.swift in Sources */,
+				974B6DB92B15E9EB00A4797E /* UIGrid.swift in Sources */,
+				973354102B0BC3B400F45F64 /* RaceScreenViewController.swift in Sources */,
+				9733540E2B0BC26300F45F64 /* ModuleBuilder.swift in Sources */,
+				973354122B0BC3E700F45F64 /* SettingsScreenViewController.swift in Sources */,
+				972125202B1E2E49008E0C1F /* DataService.swift in Sources */,
+				973354242B0BC4D400F45F64 /* RaceScreenPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		973353FF2B0BC24100F45F64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				973354002B0BC24100F45F64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		973354042B0BC24400F45F64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +493,6 @@
 				INFOPLIST_FILE = RaceAppAston/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +520,6 @@
 				INFOPLIST_FILE = RaceAppAston/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
